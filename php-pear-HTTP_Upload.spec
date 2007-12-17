@@ -17,7 +17,6 @@ Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
 BuildRequires:	recode
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This class provides an advanced file uploader system for file uploads
