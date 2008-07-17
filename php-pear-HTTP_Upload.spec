@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Easy and secure managment of files submitted via HTML Forms
 Name:		php-pear-%{_pearname}
 Version:	0.9.1
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -17,7 +17,7 @@ Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
 BuildRequires:	recode
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This class provides an advanced file uploader system for file uploads
