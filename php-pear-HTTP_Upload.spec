@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.9.1
-Release:	%mkrel 13
+Release:	%mkrel 14
 Summary:	Easy and secure managment of files submitted via HTML Forms
 License:	PHP License
 Group:		Development/PHP
