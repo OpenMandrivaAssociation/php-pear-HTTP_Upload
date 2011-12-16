@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.9.1
-Release:	%mkrel 14
+Release:	%mkrel 15
 Summary:	Easy and secure managment of files submitted via HTML Forms
 License:	PHP License
 Group:		Development/PHP
@@ -59,7 +59,7 @@ pear install --nodeps --soft --force --register-only \
 %if %mdkversion < 201000
 if [ "$1" -eq "0" ]; then
     pear uninstall --nodeps --ignore-errors --register-only \
-        %{pear_name} >/dev/null || :
+        %{upstream_name} >/dev/null || :
 fi
 %endif
 
