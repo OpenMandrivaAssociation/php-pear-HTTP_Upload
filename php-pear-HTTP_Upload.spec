@@ -8,7 +8,7 @@ Release:	17
 Summary:	Easy and secure managment of files submitted via HTML Forms
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTTP_Upload/
+URL:		https://pear.php.net/package/HTTP_Upload/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
